@@ -23,15 +23,38 @@
             <a href="#text_formats">Text formats</a>
             <a href="#blockquotes">Blockquotes</a>
           </nav>
+          <hr>
           <h1>HTML Elements</h1>
+          <hr>
           <h2>Ordered List</h2>
           <h2>Definition List</h2>
           <h2>Details</h2>
+
+<details open="open">
+<summary>Even more details open</summary>
+<p>Here are even more details about the details.</p>
+</details>
+<details><summary>Even more details close</summary></details>
+
+          <hr>
           <h2>Table</h2>
+          <hr>
           <h2>Text formats</h2>
+          <article>Article Text</article>
+          
+          <h2>Preformatted Text</h2>
+          <pre>
+<b>Text</b>
+     in a pre element
+       is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+</pre>
           <p>Code</p>
           <pre>
-                            <code>.wrapper {
+           <code>
+.wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -39,12 +62,18 @@
 }
 </code>
                         </pre>
+          <hr>
           <h2>Blockquotes</h2>
           <p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
           <blockquote>
             Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and <br> if you give them tools, they'll do wonderful things with them.<br>
             <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%BE%D0%B1%D1%81,_%D0%A1%D1%82%D0%B8%D0%B2">Steve Jobs</a>
           </blockquote>
+          <footer>
+            <p hidden>And here’s a bit of trailing text.</h2>
+
+             <h3>Copyright Epam Systems</h3>
+</footer>
         </div>
       </div>
     </div>
